@@ -1,3 +1,5 @@
+package ExercitiulCalculator;
+
 import java.util.Scanner;
 
 public class Calculator {

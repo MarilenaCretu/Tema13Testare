@@ -1,3 +1,5 @@
+package ExercitiulCalculator;
+
 public class Main {
     public static void main(String[] args) {
 //        LogicalOp logicalOp=new LogicalOp();
