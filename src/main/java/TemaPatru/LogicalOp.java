@@ -13,7 +13,7 @@ public class LogicalOp {
         for (int i = 0; i < array.length; i++) {
             if (array[i] < min) {
                 min = array[i];
-                System.out.println("\n" + min);
+                System.out.println(min);
             }
         }
         return min;
