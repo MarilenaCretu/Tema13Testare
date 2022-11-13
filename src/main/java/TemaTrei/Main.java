@@ -22,12 +22,7 @@ public class Main {
 //        System.out.println("\nExercitiul 8:\n\tCreati o metoda care sa primeasca un parametru de tip array de numere, populat cu valori, si un parametru de tip numar. Metoda sa\n" +
 //                "verifice daca numarul exista in array, si daca da, sa returneze array-ul primit, fara acel numar:");
 
-        //nu e asa in tema
-        System.out.println("\nnu e asa in tema");
-        int [] array = new int [] {56, 3, 90, 5, 98};
-        logicalOp.printArrayValue(array);
-        logicalOp.min(array);
-        logicalOp.max(array);
+
 
     }
 }
