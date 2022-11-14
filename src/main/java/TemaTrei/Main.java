@@ -35,6 +35,5 @@ public class Main {
         System.out.print("\nAl doilea cel mai mic numar din array este: ");
         logicalOp.aldoileamicArray(micArray);
 
-        logicalOp.getSecondSmallestNrInArray(myArray);
     }
 }
