@@ -52,7 +52,7 @@ public class LogicalOp {
     public int getIndexForValue(int[] indexArray, int value) {
         for (int i = 0; i < indexArray.length; i++) {
             if (indexArray[i] == value) {
-                System.out.println("\nPozitia pe care se afla numarul \""+value+"\" este: "+i);
+                System.out.println("\nPozitia pe care se afla numarul \"" + value + "\" este: " + i);
                 return i;
             }
         }
@@ -106,4 +106,15 @@ public class LogicalOp {
         return micArray[1];
     }
 
+    //Exerecitiul 10
+    public int[] copyArray() {
+        int[] firstArray = {2, 7, 9};
+        int[] emptyArray = new int[firstArray.length];
+        for (int i = 0, j = 0; i < firstArray.length; i++) {
+            emptyArray[j] = firstArray[i];
+            j++;
+            System.out.print(emptyArray[i]+" ");
+        }
+        return emptyArray;
+    }
 }

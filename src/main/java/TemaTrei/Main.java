@@ -34,6 +34,8 @@ public class Main {
         System.out.print("Array dat: "+ Arrays.toString(micArray));
         System.out.print("\nAl doilea cel mai mic numar din array este: ");
         logicalOp.aldoileamicArray(micArray);
-
+        System.out.println("\nExercitiul 10:\n\tCreati o metoda care sa primeasca doi parametrii: un array populat cu valori, si un array gol. Metoda sa copieze toate valorile din primul\n" +
+                "array, parcurgandu-l, in cel de-al doilea: ");
+        logicalOp.copyArray();
     }
 }
