@@ -29,8 +29,6 @@ public class Main {
         System.out.println("\nExercitiul 8:\n\tCreati o metoda care sa primeasca un parametru de tip array de numere, populat cu valori, si un parametru de tip numar. Metoda sa\n" +
                 "verifice daca numarul exista in array, si daca da, sa returneze array-ul primit, fara acel numar:");
         logicalOp.removeNrFromArray(indexArray, 3);
-        //System.out.println(Arrays.toString(myArray,3));
-
         System.out.println("\nExercitiul 9:\n\tCreati o metoda care sa primeasca un array, si sa returneze al doilea cel mai mic numar din array: ");
         int [] micArray = new int [] {56, 3, 50, 5, 98};
         System.out.print("Array dat: "+ Arrays.toString(micArray));
