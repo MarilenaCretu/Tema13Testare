@@ -90,6 +90,7 @@ public class LogicalOp {
         return finArray;
     }
 
+    //Exerecitiul 9
     public int aldoileamicArray(int[] micArray) {
         int temporary = 0;
         for (int i = 0; i < micArray.length; i++) {
@@ -103,5 +104,20 @@ public class LogicalOp {
         }
         System.out.println(micArray[1]);
         return micArray[1];
+    }
+    //Exerecitiul 10
+    public int getSecondSmallestNrInArray(int[] myArray) {
+        int temporary = 0;
+        for(int i = 0; i< myArray.length;i++){
+            for(int j = i + 1;j<myArray.length;j++){
+                if(myArray[i] > myArray[j]){
+                    temporary = myArray[j];
+                    myArray[j] = myArray[i];
+                    myArray[i] = temporary;
+                }
+            }System.out.print(myArray[i]+" ");
+        }
+
+        return myArray[1];
     }
 }
