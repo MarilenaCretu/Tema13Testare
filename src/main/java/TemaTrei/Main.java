@@ -36,6 +36,8 @@ public class Main {
         logicalOp.aldoileamicArray(micArray);
         System.out.println("\nExercitiul 10:\n\tCreati o metoda care sa primeasca doi parametrii: un array populat cu valori, si un array gol. Metoda sa copieze toate valorile din primul\n" +
                 "array, parcurgandu-l, in cel de-al doilea: ");
-        logicalOp.copyArray();
+        int[] firstArray=new int[2];
+        int[] emptyArray=new int[2];
+        System.out.println(Arrays.toString(logicalOp.copyArray(firstArray, emptyArray)));
     }
 }

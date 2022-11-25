@@ -81,13 +81,14 @@ public class LogicalOp {
         for (int i = 0; i < myArray.length; i++) {
             if (myArray[i] == nr)
                 continue;
-            secondArray[j++] = myArray[i];
+            secondArray[j++]= myArray[i];
         }
-        int[] finArray = new int[j];
-        for (int i = 0; i < j; i++)
-            finArray[i] = secondArray[i];
-        System.out.println(Arrays.toString(finArray));
-        return finArray;
+//        int[] finArray = new int[j];
+//        for (int i = 0; i < j; i++)
+//            finArray[i] = secondArray[i];
+//        System.out.println(Arrays.toString(finArray));
+        System.out.println(Arrays.toString(secondArray));
+        return secondArray;
     }
 
     //Exerecitiul 9
@@ -107,13 +108,12 @@ public class LogicalOp {
     }
 
     //Exerecitiul 10
-    public int[] copyArray() {
-        int[] firstArray = {2, 7, 9};
-        int[] emptyArray = new int[firstArray.length];
+    public int[] copyArray(int[] firstArray, int[] emptyArray) {
+        firstArray = new int[]{2, 7, 9};
+        emptyArray = new int[firstArray.length];
         for (int i = 0, j = 0; i < firstArray.length; i++) {
             emptyArray[j] = firstArray[i];
             j++;
-            System.out.print(emptyArray[i]+" ");
         }
         return emptyArray;
     }
