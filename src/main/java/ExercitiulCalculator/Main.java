@@ -3,14 +3,14 @@ package ExercitiulCalculator;
 public class Main {
     public static void main(String[] args) {
         Calculator calculator=new Calculator();
-        System.out.println(calculator.adunint(3,2));
-        System.out.println(calculator.adunfloat(3.5F, 5.2f,2));
-        System.out.println(calculator.adundouble(3.5,5.2));
+        System.out.println(calculator.adun(3,2));
+        System.out.println(calculator.adun(3.5F, 5.2f,2));
+        System.out.println(calculator.adun(3.5D,5.2D));
         System.out.println(calculator.rezultatulimpartirii(2,7.3));
 
-        System.out.println(calculator.calculA(-5, 8 , 6));
+        System.out.println(calculator.calculA(-5D, 8 , 6));
         System.out.println(calculator.calculA(-5D, 8D , 6));
-        System.out.println(calculator.calcula(-5,8,6));
+        System.out.println(calculator.calculA(-5,8,6));
 
         System.out.println(calculator.calculB(55,9,9));
         System.out.println(calculator.calculB(55D,9D,9));

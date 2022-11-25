@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class Calculator {
 
-    public int adunint(int primmulnumar, int aldoileanumar) {
+    public int adun(int primmulnumar, int aldoileanumar) {
         int sum = primmulnumar + aldoileanumar;
         System.out.print("Exercitiul 2:\nSuma numerelor pe care le-ati introdus (" + primmulnumar + ", " + aldoileanumar + ") este: ");
         return sum;
     }
 
-    public float adunfloat(float primmulnumar, float aldoileanumar, int altreilea) {
-        float sum = primmulnumar + aldoileanumar + altreilea;
+    public float adun(float primmulnumar, float aldoileanumar, int altreilea) {
+        float sum = primmulnumar + aldoileanumar +  altreilea;
         System.out.print("Suma numerelor pe care le-ati introdus (" + primmulnumar + ", " + aldoileanumar + ", " + altreilea + ") este: ");
         return sum;
     }
 
-    public double adundouble(double primmulnumar, double aldoileanumar) {
+    public double adun(double primmulnumar, double aldoileanumar) {
         double sum = primmulnumar + aldoileanumar;
         System.out.print("Suma numerelor pe care le-ati introdus (" + primmulnumar + ", " + aldoileanumar + ") este: ");
         return sum;
@@ -30,8 +30,8 @@ public class Calculator {
         return impartit;
     }
 
-    public double calculA(int c, int d, int e) {
-        double calA = c + d * e;
+    public double calculA(double c, int d, int e) {
+        double calA =  c +(double) d * e;
         System.out.print("\nCalcul A: -5 + 8 * 6 = ");
         return calA;
     }
@@ -42,7 +42,7 @@ public class Calculator {
         return calA;
     }
 
-    public int calcula(int c, int d, int e) {
+    public int calculA(int c, int d, int e) {
         int calA = c + d * e;
         System.out.print("\t   A: -5 + 8 * 6 = ");
         return calA;
